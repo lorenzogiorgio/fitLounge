@@ -1,0 +1,182 @@
+/* HTML elements */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+li a:hover {
+  color: #e84545 !important;
+}
+
+/* ID from top to bottom */
+#logButton {
+  margin-bottom: 2rem;
+  padding: 0.5rem 5rem;
+}
+
+#title h1 {
+  font-size: 10vw;
+  padding-bottom: 0.5rem;
+}
+
+#title p {
+  font-size: 2rem;
+}
+
+#joinButton {
+  padding: 0.5rem auto;
+  margin: 3% 15%;
+  background-color: #26315a;
+  color: #e84545;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+  box-shadow: 0px 0 0 #31708f  inset;
+}
+
+#joinButton:hover {
+  box-shadow: 240px 0 0 #31708f inset;
+  color: #fff;
+}
+
+#whoAmI {
+  text-align: center;
+}
+
+#whoAmI h1 {
+  color: #26315a;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding: 3% 15%;
+}
+
+#whoAmI button {
+  background-color: #26315a;
+  color: #fff;
+  border: 0;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+  box-shadow:0px 0 0 #31708f  inset;
+}
+
+#whoAmI img {
+  margin-bottom: 5rem;
+}
+
+#whoAmI button:hover {
+  box-shadow: 133.734px 0 0 #31708f inset;
+}
+
+#social {
+  padding: 7% 7%
+}
+
+/* Divs sections */
+.whiteSection {
+  text-align: center;
+  color: #26315a;
+}
+
+.colored-section{
+  background-color: #26315a;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.header {
+  background-color: grey;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-control-next-icon{
+  color:black;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.shown {
+  margin: 0 25%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #26315a;
+  color: #fff;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: #26315a;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-box-shadow: 0px 0px 0 0 #fff inset , 0px 0px 0 #fff inset;
+}
+
+.shown:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 50px 0 0px #fff inset , 0px -50px 0 0px #fff inset;
+  color : #26315a;
+
+}
+
+.hidden {
+  margin: 0 25%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #26315a;
+  color: #e84545;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  color: #e84545;
+}
+
+.footer h1 {
+  font-size: 2rem;
+  padding: 3% 15%;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.footer a img {
+  width: 50px;
+  height: 50px;
+  background-color: #e84545;
+  border-radius: 100%;
+  margin: 3% 1%
+}
+
+.circle {
+  width: 230px;
+  height: 200px;
+}
